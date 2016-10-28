@@ -26,8 +26,8 @@
 	    $picname3 =$CFG['url'].$ddd = substr($picName1,2);
 	    $picname4 = $CFG['url'].$ddd2 = substr($picName2,2);
 	    $db->query("INSERT INTO {$AJ_PRE}validate      (type,username,ip,addtime,status,editor,edittime,title,thumb,thumb1,thumb2) 
-VALUES 
-('truename','$_username','$AJ_IP','$AJ_TIME','2','system','$AJ_TIME','$_username','$picname3','$picname4','')");
+            VALUES 
+            ('truename','$_username','$AJ_IP','$AJ_TIME','2','system','$AJ_TIME','$_username','$picname3','$picname4','')");
            $res = "<font color='#FF0000'>身份证上传成功！</font><br/>";
 	  }
        }
